@@ -1,4 +1,4 @@
-export {} // Para não reclamar de variáveis duplicadas
+'export {} // Para não reclamar de variáveis duplicadas
 /** 
     Em todos os casos abaixo de uso do getElementById(), o elemento é potencialmente nulo e ifs são necessários para garantir que seu código vai funcionar da melhor forma.
     No entanto, vão existir situações em que o desenvolvedor vai ter certeza de que o campo está lá e ele pode escrever o código da seguinte maneira:
@@ -6,7 +6,7 @@ export {} // Para não reclamar de variáveis duplicadas
     A exclamação no fim é um sinal de que aquele campo não é nulo e que essa função realmente vai trazer algo. Assim, os ifs não são necessários.
     Como exemplo, vou seguir essa metodologia no campo 'botaoLimpar'.
 */
-let botaoAtualizar = document.getElementById('atualizar-saldo');
+let botaoAtualizar = document.getElementById('atualizar-saldo'); 
 let botaoLimpar = document.getElementById('limpar-saldo')!;
 let soma = document.getElementById('soma')! as HTMLInputElement;
 let campoSaldo = document.getElementById('campo-saldo');
